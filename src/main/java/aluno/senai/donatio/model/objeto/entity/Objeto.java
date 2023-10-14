@@ -1,5 +1,8 @@
-package aluno.senai.donatio.model;
+package aluno.senai.donatio.model.objeto.entity;
 
+import aluno.senai.donatio.model.categoria.entity.Categoria;
+import aluno.senai.donatio.model.pessoa.entity.Pessoa;
+import aluno.senai.donatio.model.pessoaJuridica.entity.PessoaJuridica;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package aluno.senai.donatio.model;
+package aluno.senai.donatio.model.pessoa.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

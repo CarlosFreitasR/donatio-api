@@ -1,8 +1,8 @@
 # App 
 server:
   servlet:
-    application-display-name: 
-    context-path: 
+    application-display-name: Donatio
+    context-path: /donatio
 
 # Jackson
 spring:
@@ -14,3 +14,10 @@ spring:
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+  # Database
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: 'root'
+    password: '@braTe07'
+    url: jdbc:mysql://localhost:3306/db_donatio

@@ -1,6 +1,6 @@
 package aluno.senai.donatio.repository;
 
-import aluno.senai.donatio.model.InscricaoEstadual;
+import aluno.senai.donatio.model.inscricaoEstadual.entity.InscricaoEstadual;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

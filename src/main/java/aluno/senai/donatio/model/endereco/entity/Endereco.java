@@ -1,5 +1,8 @@
-package aluno.senai.donatio.model;
+package aluno.senai.donatio.model.endereco.entity;
 
+import aluno.senai.donatio.model.bairro.entity.Bairro;
+import aluno.senai.donatio.model.pessoa.entity.Pessoa;
+import aluno.senai.donatio.model.pessoaJuridica.entity.PessoaJuridica;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

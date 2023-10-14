@@ -1,10 +1,9 @@
-package aluno.senai.donatio.model;
+package aluno.senai.donatio.model.bairro.entity;
 
+import aluno.senai.donatio.model.cidade.entity.Cidade;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-
-import java.util.Collection;
 
 @Getter
 @Setter
@@ -23,7 +22,4 @@ public class Bairro {
     @ManyToOne
     @JoinColumn(name = "fkCidade", referencedColumnName = "pkCidade", nullable = false)
     private Cidade cidade;
-    
-    @OneToMany(mappedBy = "bairro")
-    private Collection<Endereco> enderecos;
 }

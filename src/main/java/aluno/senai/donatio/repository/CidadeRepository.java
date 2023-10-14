@@ -1,6 +1,6 @@
 package aluno.senai.donatio.repository;
 
-import aluno.senai.donatio.model.Cidade;
+import aluno.senai.donatio.model.cidade.entity.Cidade;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

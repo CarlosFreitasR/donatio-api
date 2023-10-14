@@ -1,4 +1,4 @@
-package aluno.senai.donatio.model;
+package aluno.senai.donatio.model.pessoaJuridica.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -39,7 +39,7 @@ public class PessoaJuridica {
 
     @Basic
     @Column(name = "entregador", nullable = false)
-    private Byte entregador;
+    private boolean entregador;
 
     @Basic
     @Column(name = "nomeResponsavel", nullable = false)
@@ -47,5 +47,6 @@ public class PessoaJuridica {
 
     @Basic
     @Column(name = "perfil", nullable = false)
-    private Object perfil;
+    @Enumerated(EnumType.STRING)
+    private Perfil perfil;
 }

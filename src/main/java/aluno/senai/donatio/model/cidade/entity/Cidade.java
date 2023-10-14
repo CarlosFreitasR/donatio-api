@@ -1,5 +1,6 @@
-package aluno.senai.donatio.model;
+package aluno.senai.donatio.model.cidade.entity;
 
+import aluno.senai.donatio.model.estado.entity.Estado;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
